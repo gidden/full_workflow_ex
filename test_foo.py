@@ -2,9 +2,11 @@ import foo
 
 from nose.tools import assert_equal
 
-def test_spread():
-    m = None
-    obs = foo.spread(m)
+def test_floats():
+    a, b = 1.0, 2.0
 
-    assert_equal(range(4), obs)
+    obs = foo.divide(a, b)
+    exp = 0.5
+
+    assert_equal(exp, obs)
     
