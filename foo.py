@@ -1,4 +1,4 @@
-def spread(m):
-    # actually write an interesting function
-    return range(4)
+def divide(a, b):
+    # not a very interesting function
+    return a / b
 
