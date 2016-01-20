@@ -7,5 +7,5 @@ def test_spread():
     obs = foo.spread(m)
 
     assert_equal(range(4), obs)
-    assert_equal(range(5), obs)
+    assert_equal(range(4), obs)
     
